@@ -1,0 +1,13 @@
+
+#환경변수
+.env
+
+#idea
+.idea/
+
+#gradle
+.gradle/
+build/
+
+#MacOS
+.DS_Store
