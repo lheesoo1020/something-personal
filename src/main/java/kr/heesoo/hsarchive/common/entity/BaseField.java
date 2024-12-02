@@ -20,7 +20,7 @@ public class BaseField {
     @CreatedDate
     private LocalDateTime createdAt;
 
-    @Column(name = "created_at", updatable = false)
+    @Column(name = "updated_at")
     @LastModifiedDate
     private LocalDateTime updatedAt;
 
