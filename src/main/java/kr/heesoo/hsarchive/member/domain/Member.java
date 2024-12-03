@@ -6,7 +6,12 @@ import lombok.*;
 
 @Entity
 @Getter
-@Table(name = "member")
+@Table(name = "member", uniqueConstraints = {
+        @UniqueConstraint(
+                name="EMAIL_UNIQUE",
+                columnNames="email"
+        )
+})
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
