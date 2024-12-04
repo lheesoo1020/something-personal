@@ -1,8 +1,8 @@
-package kr.heesoo.hsarchive.member.dto.request;
+package kr.heesoo.hsarchive.auth.dto.request;
 
 import kr.heesoo.hsarchive.member.domain.Member;
 
-public record JoinDto(
+public record JoinRequestDto(
         String email,
         String password,
         String username

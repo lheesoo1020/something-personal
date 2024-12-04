@@ -1,4 +1,4 @@
-package kr.heesoo.hsarchive.member.dto.response;
+package kr.heesoo.hsarchive.auth.dto.response;
 
 import lombok.Builder;
 
